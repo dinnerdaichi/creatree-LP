@@ -496,6 +496,7 @@ p {
   width: 94%;
   text-align: left;
   line-height: 1.6;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 30px;
@@ -956,9 +957,12 @@ p {
 
 .span-padding {
   padding: 0 1vw;
+  font-weight: lighter;
+  font-size: 3rem;
 
   @media screen and (min-width: 750px) {
     padding: 7.5px;
+    font-size: 60px;
 
   }
 }
