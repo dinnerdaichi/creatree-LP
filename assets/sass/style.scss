@@ -180,6 +180,10 @@ p {
   font-family: var(--font-normal);
 }
 
+.font-normal {
+  font-family: var(--font-bold);
+}
+
 
 .section01,
 .section02,
@@ -260,6 +264,7 @@ p {
   position: absolute;
   top: 4%;
   left: 4%;
+  font-weight: bold;
 
 }
 
@@ -267,6 +272,7 @@ p {
   position: absolute;
   top: 11%;
   left: 0%;
+  font-weight: bold;
 
 }
 
@@ -275,6 +281,7 @@ p {
   top: 17.5%;
   left: 4%;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 .section01 .position-4 {
@@ -321,12 +328,14 @@ p {
   position: absolute;
   top: 15%;
   left: 17%;
+  font-weight: bold;
 }
 
 .section02 .position-2 {
   position: absolute;
   top: 28%;
   left: 13%;
+  font-weight: bold;
 }
 
 .section02 .position-3 {
@@ -385,6 +394,7 @@ p {
   left: 7%;
   color: var(--color-darkblue);
   letter-spacing: 0;
+  font-weight: bold;
 
 }
 
@@ -394,6 +404,7 @@ p {
   left: 12%;
   color: var(--color-darkblue);
   letter-spacing: 0;
+  font-weight: bold;
 
 }
 
@@ -415,6 +426,7 @@ p {
   color: white;
   width: 100%;
   text-align: center;
+  font-weight: bold;
 
 }
 
@@ -428,6 +440,7 @@ p {
   width: 92%;
   text-align: left;
   line-height: 1.7;
+  font-weight: bold;
 
 
 }
@@ -445,6 +458,7 @@ p {
   width: 42%;
   text-align: center;
   letter-spacing: 0.04em;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 5px;
@@ -463,6 +477,7 @@ p {
   padding: 1vw;
   width: 87%;
   text-align: left;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 5px;
@@ -497,6 +512,7 @@ p {
   width: 85%;
   text-align: center;
   line-height: 1.6;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 5px;
@@ -513,6 +529,7 @@ p {
   width: 62%;
   text-align: center;
   line-height: 1.6;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 5px;
@@ -531,6 +548,7 @@ p {
   width: 94%;
   text-align: left;
   line-height: 1.6;
+  font-weight: bold;
 
   @media screen and (min-width: 750px) {
     padding: 30px;
@@ -676,8 +694,9 @@ p {
 
 .section05-img {
   top: 19%;
-  left: 5%;
-  width: 90%;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
 }
 
 /* ---------------------------------------------------
@@ -1003,7 +1022,6 @@ p {
     position: absolute;
     left: 11%;
     color: var(--color-darkblue);
-    font-weight: normal;
     width: 86%;
     text-align: left;
     line-height: 1.6;
@@ -1011,6 +1029,7 @@ p {
 
   .position-1 {
     top: 10.7%;
+    font-weight: bold;
   }
 
   .position-2 {
@@ -1019,6 +1038,7 @@ p {
 
   .position-3 {
     top: 17.2%;
+    font-weight: bold;
   }
 
   .position-4 {
@@ -1027,6 +1047,7 @@ p {
 
   .position-5 {
     top: 23.8%;
+    font-weight: bold;
   }
 
   .position-6 {
@@ -1035,6 +1056,7 @@ p {
 
   .position-7 {
     top: 31.8%;
+    font-weight: bold;
   }
 
   .position-8 {
@@ -1043,6 +1065,7 @@ p {
 
   .position-9 {
     top: 38.3%;
+    font-weight: bold;
   }
 
   .position-10 {
@@ -1051,6 +1074,7 @@ p {
 
   .position-11 {
     top: 46.2%;
+    font-weight: bold;
   }
 
   .position-12 {
@@ -1059,6 +1083,7 @@ p {
 
   .position-13 {
     top: 52.8%;
+    font-weight: bold;
   }
 
   .position-14 {
@@ -1083,30 +1108,33 @@ p {
     position: absolute;
     left: 3%;
     color: white;
-    font-weight: normal;
     width: 95%;
     text-align: center;
     line-height: 1.7;
   }
 
   .position-15 {
-    top: 67.4%;;
+    top: 67.4%;
+    font-weight: bold;
   }
 
   .position-16 {
     top: 69.7%;
+    font-weight: bold;
   }
 
   .position-17 {
     top: 74%;
     text-align: left;
     letter-spacing: 0.04em;
+    font-weight: bold;
   }
 
   .position-18 {
     top: 80%;
     text-align: left;
     letter-spacing: 0.04em;
+    font-weight: bold;
   }
 
 }
@@ -1180,7 +1208,7 @@ p {
     display: inline-flex;
 
     @media screen and (min-width: 750px) {
-      padding: 18px 15px;
+      padding: 11px 13px;
     }
   }
 
@@ -1202,7 +1230,7 @@ p {
     display: inline-flex;
 
     @media screen and (min-width: 750px) {
-      padding: 18px 15px;
+      padding: 11px 13px;
     }
   }
 
@@ -1224,7 +1252,7 @@ p {
     display: inline-flex;
 
     @media screen and (min-width: 750px) {
-      padding: 18px 15px;
+      padding: 11px 13px;
     }
   }
 
