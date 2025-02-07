@@ -17,7 +17,6 @@
         <p class="fs-24 position-2">「2日間集中コース」</p>
         <p class="fs-14 position-3">現職のトレーナーも、これからトレーナーを目指す方も短期間で確実に資格取得を目指せるこの講座で次のステップへ進みましょう。</p>
         <p class="fs-14 position-4">説明会は全て無料なのでご安心ください</p>
-
         <a href="###" class="line-button">
           <img src="./assets/img/line-button.png" alt="オンライン無料説明会のご案内はこちら">
         </a>
@@ -97,6 +96,8 @@
           <img src="./assets/img/line-button.png" alt="オンライン無料説明会のご案内はこちら">
         </a>
       </section>
+
+      
 
       <section class="c-section section07">
         <img src="./assets/img/section07-bg.png" alt="section07の背景">
@@ -242,36 +243,5 @@
 
     </main>
   </div>
-
-  <script>
-    document.body.style.display = 'none';
-    window.onload = function () {
-      var UserInput = null;
-
-      var cookies = document.cookie;
-      var cookiesArray = cookies.split(';');
-      var pass = 'cGFzcw==';
-
-      for (var c of cookiesArray) {
-        var cArray = c.split('=');
-        if (cArray[0].indexOf('cruw-basic') > -1) {
-          UserInput = decodeURIComponent(cArray[1]);
-        }
-      }
-      if (!(UserInput && UserInput == window.atob(pass))) {
-        UserInput = prompt("パスワードを入力して下さい:", "");
-      }
-
-      if (UserInput != window.atob(pass)) {
-        document.body.innerHTML = "403 Forbidden";
-      } else {
-        var now = new Date();
-        now.setMinutes(now.getMinutes() + 60 * 24 * 3);
-        document.cookie = "cruw-basic=" + encodeURIComponent(UserInput) + ";expires=" + now.toUTCString() + "; path=/;";
-      }
-      document.body.style.display = null;
-    }
-  </script>
-
 </body>
 </html>
